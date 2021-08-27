@@ -13,6 +13,6 @@ NotEqual = left_side != right_side
 
 
 print(str(left_side) + " < " + str(right_side) + " is " + str(bool(Less)))
-print(str(left_side) + " = " + str(right_side) + " is " + str(bool(GreaterEqual)))
+print(str(left_side) + " >= " + str(right_side) + " is " + str(bool(GreaterEqual)))
 print(str(left_side) + " == " + str(right_side) + " is " + str(bool(Equal)))
 print(str(left_side) + " != " + str(right_side) + " is " + str(bool(NotEqual)))
