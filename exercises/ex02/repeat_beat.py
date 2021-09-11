@@ -11,7 +11,7 @@ i: int = 0
 beat2 = beat + " "
 
 while i < number:
-    print(beat2 * number)
+    print(beat2 * (number - 1) + beat)
     i = number
 if number <= 0:
     print("No beat...")
